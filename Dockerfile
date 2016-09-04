@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+phusion/baseimage:latest
 MAINTAINER info@the-town.net
 
 RUN apt-get update -qq && \
