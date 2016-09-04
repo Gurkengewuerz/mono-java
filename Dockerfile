@@ -1,4 +1,4 @@
-phusion/baseimage:latest
+FROM phusion/baseimage:latest
 MAINTAINER info@the-town.net
 
 RUN apt-get update -qq && \
